@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="380dp"
+    android:layout_height="230dp"
+    android:background="@drawable/dialog_shape">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:text="\tINSERT INTO "
+        android:textColor="@color/DarkTheme"
+        android:fontFamily="casual"
+        android:layout_weight="0.6"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/setup_dialog"
+    android:text="SETUP"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="15dp"
+    android:textColor="@color/LightTheme"
+    android:textAlignment="center"
+    android:fontFamily="casual"
+    android:background="@drawable/dialog_item_shape"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/loop_dialog"
+        android:text="LOOP"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/LightTheme"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:background="@drawable/dialog_item_shape"
+        />
+</LinearLayout>

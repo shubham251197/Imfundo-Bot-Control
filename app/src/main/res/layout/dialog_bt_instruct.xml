@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/no_round_corner_dialog">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="11dp"
+        android:text="SELECT THE PAIR BOT YOU WANT TO CODE WITH.
+        IF NOT ANY, SELECTED ONE FROM THE AVAILABLE BOTS FIRST"/>
+</LinearLayout>

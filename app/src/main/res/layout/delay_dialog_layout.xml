@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="110dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_shape"
+    android:layout_height="250dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:fontFamily="casual"
+            android:text="Delay (seconds) "
+            android:textAlignment="center"
+            android:textColor="@color/DarkTheme"
+            android:textSize="17dp" />
+
+        <NumberPicker
+        android:id="@+id/delay_seconds"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="3"
+        android:background="@color/LightTheme" />
+
+        <Button
+        android:id="@+id/delay_dialog_submit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight=".7"
+        android:background="@drawable/dialog_item_shape"
+        android:fontFamily="casual"
+        android:text="SUBMIT"
+        android:textColor="@color/LightTheme" />
+
+</LinearLayout>
